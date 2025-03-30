@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohamed Aslam M J </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Aslam M J</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/A6.jpg" alt="Mohamed Aslam profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">MOHAMED ASLAM</h1>
+        <p class="section__text__p2">ServiceNow Consultant || EY</p>
+        <p class="section__text__p3">| Innovating ServiceNow Solutions |</br> Driving IT Efficiency with Automation & </br>Custom Development |</p><br/>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Aslam.pdf')">
+            <i class="fas fa-download"></i> Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            <i class="fas fa-envelope"></i> Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/mohamedaslammj-servicenow" target="_blank">
+            <img src="./assets/l3.png" alt="LinkedIn" class="icon uniform-icon" />
+          </a>
+          <a href="https://wa.me/919629905786" target="_blank">
+            <img src="./assets/w1.png" alt="WhatsApp" class="icon uniform-icon" />
+          </a>
+          <a href="mailto:mohamedaslammj@gmail.com">
+            <img src="./assets/email1.png" alt="Email" class="icon uniform-icon" />
+          </a>
+          <a href="tel:919629905786">
+            <img src="./assets/call1.png" alt="Call" class="icon uniform-icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1><br/>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/A3.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p> 2.10 years of experience in <br\>ServiceNow Development and Administration </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Bachelors of Engineering<br />(Electronics And Communication Engineering)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Dedicated 2.10 years of experience in ServiceNow development and administration.
+              I specialize in IT Service Management (ITSM), 
+              Human Resources Service Delivery (HRSD), 
+              and Governance, Risk, and Compliance (GRC). 
+              With hands-on experience across multiple industries, 
+              I have successfully implemented system upgrades, automated workflows, 
+              and optimized service delivery to enhance operational efficiency.
+
+              Proficient in scripting, UI policies, flow designer, and automation,
+              I create scalable solutions that streamline processes and improve user experience. 
+              Recognized for troubleshooting complex challenges and driving innovation, 
+              I am committed to leveraging ServiceNow’s capabilities for business transformation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+    <br/><br/><br/><br/>
+    
+
+   <section id="experience" class="experience-section">  
+  <p class="section__text__p1">Explore My</p>  
+  <h1 class="title">Experience</h1>  
+  <div class="experience-details-container">  
+    <div class="about-containers">  
+      <div class="details-container">  
+        <h2 class="experience-sub-title">ServiceNow Consultant</h2>  
+        <div class="article-container">  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>HRSD ServiceNow Administration</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>ITSM ServiceNow Administration</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>GRC ServiceNow Administration</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Policy and Compliance Management</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>JavaScript, HTML, CSS, AJAX</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Flow Designer</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>ServiceNow Development (Server-Side & Client-Side Scripting, UI Policies, UI Actions)</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Service Catalog Development (Catalog Items, Record Producers, Fulfillment Processes)</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>ServiceNow Platform Upgrades, Update Sets & Platform Maintenance</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Extensive experience with ServiceNow (Forms, Tables, Roles, Users, Groups)</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Effective Communication & Collaboration</h3>  
+            </div>  
+          </article>  
+          <article>  
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />  
+            <div>  
+              <h3>Analytical Problem-Solving & Time Management</h3>  
+            </div>  
+          </article>  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</section>
+<br/><br/>
+
+<section id="projects" class="project-section">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="project-details-container">
+    
+    
+  <div class="project">
+      <h3>Anglo American - Mining Company</h3>
+      <p><strong>Role:</strong> ServiceNow Developer/Administrator - (HRSD)</p>
+      <p><strong>Duration:</strong> Mar 2024 - Present</p>
+      <P><strong>project-responsibilities:</strong></P>
+      <li>Developed and deployed HRSD enhancements with zero issues.</li>
+      <li>Led the Vancouver to Xanadu HRSD upgrade ensuring a smooth transition.</li>
+      <li>Improved Service Catalog components including catalog items and fulfillment processes.</li>
+      <li>Designed record producers to simplify data collection and automate case creation.</li>
+      <li>Created dynamic scripts for auto-filling fields based on user input.</li>
+      <li>Provided technical support and resolved issues promptly for seamless workflow.</li>
+      <li>Worked on HRSD Life Cycle Event Management for employee transitions.</li>
+      <li>Hands-on experience in scripting: Client Script, Business Rules, Script Include, UI Policies.</li>
+    
+  </div>
+  <div class="project">
+      <h3>CNA - Banking Company</h3>
+      <p><strong>Role:</strong> ServiceNow Developer/Administrator - (GRC)</p>
+      <p><strong>Duration:</strong> Oct 2023 - Feb 2024</p>
+      <P><strong>project-responsibilities:</strong></P>
+      <li>Led Policy Management in GRC as the sole resource.</li>
+        <li>Automated policy workflows for creation, approval, and reviews.</li>
+        <li>Developed custom notifications and UI enhancements for better functionality.</li>
+        <li>Recognized by management for policy management improvements.</li>
+        <li>Implemented user stories to enhance process efficiency.</li>
+        <li>Created Technical Design Documents and comprehensive test cases.</li>
+  </div>
+  <div class="project">
+      <h3>Cognizant - Technology Services Company</h3>
+      <p><strong>Role:</strong> ServiceNow Administrator - (ITSM)</p>
+      <p><strong>Duration:</strong> Jan 2023 - Aug 2023</p>
+      <P><strong>project-responsibilities:</strong></P>
+      <li>Provided ITSM support, improving process efficiency by 50%.</li>
+      <li>Resolved cases within SLA consistently meeting targets.</li>
+      <li>Implemented and tested bug fixes to ensure quality.</li>
+      <li>Delivered excellent customer support, improving client satisfaction.</li>
+      <li>Collaborated with stakeholders for process improvements.</li>
+      <li>Conducted root cause analysis to resolve recurring issues.</li>
+  </div>
+  <div class="project">
+      <h3>Life's Good (LG) - Consumer Goods Company</h3>
+      <p><strong>Role:</strong> ServiceNow Tester</p>
+      <p><strong>Duration:</strong> Aug 2022 - Dec 2022</p>
+      <P><strong>project-responsibilities:</strong></P>
+      <li>Developed and executed comprehensive test cases in Jira to validate software functionality, ensuring high-quality releases.</li>
+      <li>Performed end-to-end manual testing to verify system accuracy, functionality, and performance.</li>
+      <li>Identified, documented, and reported defects using Jira, collaborating with developers for quick resolution and retesting.</li>
+      <li>Conducted regression testing to ensure existing functionalities remained unaffected after updates.</li>
+      <li>Reviewed functional and technical requirements to ensure all test scenarios were covered.</li>
+      <li>Prepared and maintained detailed test documentation, including test plans, test cases, and defect logs.</li>
+      <li>Provided feedback for process improvements, contributing to higher testing efficiency and product reliability.</li>
+
+  </div>
+</section>
+
+<br/><br/>
+
+<script>
+  function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('open');
+  }
+</script>
+</body>
+</html>
+
+
+
+<section id="certifications">
+  <p class="section__text__p1">My Achievements</p>
+  <h1 class="title">Certifications & Awards</h1>
+    <div class="card-container">
+        <div class="card">  
+            <h3>EY Appreciate Award</h3>
+            <p>Recognized for outstanding team performance.</p>
+            <img src="./assets/eyapp.png" alt="EY Appreciate Award">        </div>
+        <div class="card">
+            <h3>GDS User Recognition</h3>
+            <p>Awarded for exceptional contribution to GDS.</p>
+            <img src="./assets/GDS..png" alt="GDS User Recognition Award">        </div>
+        <div class="card">
+            <h3>ServiceNow CSA</h3>
+            <p>Certified System Administrator in ServiceNow.</p>
+            <img src="./assets/csa.png" alt="ServiceNow CSA">        </div>
+        <div class="card">
+            <h3>ServiceNow CAD</h3>
+            <p>Certified Application Developer in ServiceNow.</p>
+            <img src="./assets/cad.png" alt="ServiceNow CAD">        </div>
+        <div class="card">
+            <h3>CIS - ITSM</h3>
+            <p>Implementation Specialist for IT Service Management.</p>
+            <img src="./assets/itsm.png" alt="ServiceNow CIS - ITSM">        </div>
+    <div class="card">
+    <h3>Micro-Certifications</h3>
+    <p>Flow designer, Citizen Developer Application Creator, Predictive Intelligence,
+      Performance Analytics, ATS etc..</p>
+    <img src="./assets/MI1.png" alt="">        </div>
+</div>
+</section>
+
+<br/><br/>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mohamedaslammj@gmail.com">mohamedaslammj@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohamedaslammj-servicenow/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp.png"
+            alt="whatsapp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/919629905786">WhatsApp</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/call.jpg"
+            alt="phone"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:+919629905786">Call </a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Mohamed Aslam. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
