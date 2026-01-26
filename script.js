@@ -439,13 +439,12 @@ const certificateMap = {
   'CSA': 'asset/csa.png',
   'CAD': 'asset/cad.png',
   'CIS_ITSM': 'asset/itsm.png',
-  'Xanadu-CSA': 'asset/xanaducsa.png',
-  'Xanadu-CAD': 'asset/xanaducad.png',
-  'Xanadu-ITSM': 'asset/xanaduitsm.png',
-  'Vancouver-CSA': 'asset/vancouvercsa.png',
-  'Vancouver-CAD': 'asset/vancouvercad.png',
+  'Xanadu-CSA': 'asset/Xanadu-CSA.png',
+  'Xanadu-CAD': 'asset/Xanadu-CAD.png',
+  'Xanadu-ITSM': 'asset/Xanadu-ITSM.png',
+  'Vancouver-CSA': 'asset/Vancouver-CSA.png',
+  'Vancouver-CAD': 'asset/Vancouver-CAD.png',
   
-
   'AchieverExtraordinaire1': 'asset/AchieverExtraordinaire1.jpg',
   'AchieverExtraordinaire2': 'asset/AchieverExtraordinaire2.jpg',
   'EYAppreciate': 'asset/EYAppreciate.png',
