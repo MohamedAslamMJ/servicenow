@@ -436,9 +436,9 @@ function fallbackSendEmail(data) {
 // =====================================================
 
 const certificateMap = {
-  'CSA': 'asset/ccsa.png',
-  'CAD': 'asset/ccad.png',
-  'CIS_ITSM': 'asset/citsm.png',
+  'CSA': 'asset/csa.png',
+  'CAD': 'asset/cad.png',
+  'CIS_ITSM': 'asset/itsm.png',
   'Xanadu-CSA': 'asset/Xanadu-CSA.png',
   'Xanadu-CAD': 'asset/Xanadu-CAD.png',
   'Xanadu-ITSM': 'asset/Xanadu-ITSM.png',
