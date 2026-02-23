@@ -1012,7 +1012,7 @@ section {
 
 .know-more-btn {
   background: var(--primary);
-  color: white;
+  color: #111;
   border: none;
   padding: clamp(0.5rem, 1vw, 0.6rem) clamp(1rem, 1.5vw, 1.25rem);
   border-radius: 0.5rem;
@@ -1025,6 +1025,7 @@ section {
 }
 
 .know-more-btn:hover {
+    color: #111;
   background: var(--primary-dark);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
@@ -1037,6 +1038,7 @@ section {
 }
 
 .know-more-btn:active {
+    color: #111;
   transform: scale(0.98);
 }
 
