@@ -100,10 +100,10 @@ window.addEventListener("scroll", function() {
   
   if (nav) {
     if (window.scrollY > 50) {
-      nav.style.background = "hsla(195, 25%, 8%, 0.95)";
-      nav.style.boxShadow = "0 4px 20px hsla(160, 40%, 50%, 0.1)";
+      nav.style.background = "hsla(190, 32%, 5%, 0.95)";
+      nav.style.boxShadow = "0 4px 20px hsla(166, 79%, 52%, 0.1)";
     } else {
-      nav.style.background = "hsla(195, 25%, 8%, 0.9)";
+      nav.style.background = "hsla(190, 32%, 5%, 0.9)";
       nav.style.boxShadow = "none";
     }
   }
